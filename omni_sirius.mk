@@ -17,7 +17,7 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Inherit from sirius device. Most specific first.
-$(call inherit-product, device/sony/sirius/sirius.mk)
+$(call inherit-product, device/sony/sirius/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Kernel properties
