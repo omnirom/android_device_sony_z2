@@ -21,7 +21,11 @@ include device/sony/shinano-common/BoardConfigCommonOmni.mk
 include $(DEVICE_PATH)/board/*.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := D6502,D6503,D6506,D6543,z2
+#TARGET_OTA_ASSERT_DEVICE := D6502,D6503,D6506,D6543,z2
+TARGET_OTA_ASSERT_DEVICE := none
+
+# Temporally set SELinux to permissive
+BOARD_USE_ENFORCING_SELINUX := false
 
 # inherit specific Header
 TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
