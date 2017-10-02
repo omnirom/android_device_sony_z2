@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit the fusion-common definitions
-$(call inherit-product, device/sony/shinano-common/shinano.mk)
+$(call inherit-product, device/sony/shinano-common/shinano_omni.mk)
 
 # Inherit the product definitions
 include $(LOCAL_PATH)/product/*.mk
