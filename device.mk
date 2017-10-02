@@ -22,15 +22,15 @@ include $(LOCAL_PATH)/product/*.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Dalvik/HWUI
-$(call inherit-product-if-exists, frameworks/native/build/phone-xxxhdpi-3072-dalvik-heap.mk)
-$(call inherit-product-if-exists, frameworks/native/build/phone-xxxhdpi-3072-hwui-memory.mk)
+$(call inherit-product-if-exists, device/sony/shinano-common/phone-xxhdpi-3072-dalvik-heap.mk)
+$(call inherit-product-if-exists, device/sony/shinano-common/phone-xxhdpi-3072-hwui-memory.mk)
 
 # Include Vendor files
 $(call inherit-product, vendor/sony/sirius-caf/sirius-vendor.mk)
 
 # This device is xxhdpi
 PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := sirius
