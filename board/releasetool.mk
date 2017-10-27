@@ -1,2 +1,2 @@
 # Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := device/sony/sirius/d6502
+TARGET_RELEASETOOLS_EXTENSIONS := device/sony/z2/d6502

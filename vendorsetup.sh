@@ -1,2 +1,2 @@
-add_lunch_combo omni_sirius-eng
-add_lunch_combo omni_sirius-userdebug
+add_lunch_combo omni_z2-eng
+add_lunch_combo omni_z2-userdebug

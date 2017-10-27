@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),sirius)
+ifeq ($(TARGET_DEVICE),z2)
     include $(call first-makefiles-under,$(LOCAL_PATH))
 endif
 

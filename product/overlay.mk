@@ -1,2 +1,2 @@
 # Overlay common parts
-DEVICE_PACKAGE_OVERLAYS += device/sony/sirius/overlay
+DEVICE_PACKAGE_OVERLAYS += device/sony/z2/overlay

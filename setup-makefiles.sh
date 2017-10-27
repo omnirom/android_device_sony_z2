@@ -20,7 +20,7 @@ set -e
 export INITIAL_COPYRIGHT_YEAR=2016
 
 # Required!
-DEVICE=sirius
+DEVICE=z2
 VENDOR=sony
 
 # Load extractutils and do some sanity checks

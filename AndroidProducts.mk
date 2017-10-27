@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_sirius.mk
+    $(LOCAL_DIR)/omni_z2.mk

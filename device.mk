@@ -33,8 +33,8 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := sirius
-PRODUCT_DEVICE := sirius
+PRODUCT_NAME := z2
+PRODUCT_DEVICE := z2
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_MODEL := Xperia Z2

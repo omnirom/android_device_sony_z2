@@ -16,16 +16,16 @@
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# Inherit from sirius device. Most specific first.
-$(call inherit-product, device/sony/sirius/device.mk)
+# Inherit from z2 device. Most specific first.
+$(call inherit-product, device/sony/z2/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := omni_shinano_sirius_defconfig
+TARGET_KERNEL_CONFIG := omni_shinano_z2_defconfig
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := omni_sirius
-PRODUCT_DEVICE := sirius
+PRODUCT_NAME := omni_z2
+PRODUCT_DEVICE := z2
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_MODEL := Xperia Z2
