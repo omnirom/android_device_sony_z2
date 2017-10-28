@@ -26,7 +26,7 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxxhdpi-3072-dal
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxxhdpi-3072-hwui-memory.mk)
 
 # Include Vendor files
-$(call inherit-product, vendor/sony/sirius-caf/sirius-vendor.mk)
+$(call inherit-product, vendor/sony/shinano-z2-caf/z2-vendor.mk)
 
 # This device is xxhdpi
 PRODUCT_AAPT_CONFIG := normal
