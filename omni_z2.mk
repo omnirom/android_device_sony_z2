@@ -18,7 +18,6 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Inherit from z2 device. Most specific first.
 $(call inherit-product, device/sony/z2/device.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := omni_shinano_z2_defconfig
