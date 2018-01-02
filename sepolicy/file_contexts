@@ -1,0 +1,3 @@
+# Sysfs entries
+/sys/devices/f9964000.i2c/i2c-8/8-0048/glove                              u:object_r:sysfs_touch:s0
+/sys/devices/f9964000.i2c/i2c-8/8-0048/wakeup_gesture                     u:object_r:sysfs_touch:s0
