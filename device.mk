@@ -22,8 +22,8 @@ include $(LOCAL_PATH)/product/*.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Dalvik/HWUI
-$(call inherit-product-if-exists, frameworks/native/build/phone-xxxhdpi-3072-dalvik-heap.mk)
-$(call inherit-product-if-exists, frameworks/native/build/phone-xxxhdpi-3072-hwui-memory.mk)
+$(call inherit-product-if-exists, vendor/omni/config/phone-xxxhdpi-3072-dalvik-heap.mk)
+$(call inherit-product-if-exists, vendor/omni/config/phone-xxxhdpi-3072-hwui-memory.mk)
 
 # Include Vendor files
 $(call inherit-product, vendor/sony/shinano-z2-caf/z2-vendor.mk)
