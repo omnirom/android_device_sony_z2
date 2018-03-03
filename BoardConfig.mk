@@ -20,6 +20,9 @@ BOARD_USE_ENFORCING_SELINUX := true
 # inherit from the common shinano definitions
 include device/sony/shinano-common/BoardConfigCommonOmni.mk
 
+# Defines for HW subsystems
+-include $(DEVICE_PATH)/hardware/*/BoardConfig.mk
+
 # inherit from the board common definitions
 include $(DEVICE_PATH)/board/*.mk
 

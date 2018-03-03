@@ -15,6 +15,11 @@
 # Inherit the fusion-common definitions
 $(call inherit-product, device/sony/shinano-common/shinano_omni.mk)
 
+# Include HW subsystem-specific makefiles
+-include $(LOCAL_PATH)/hardware/*/packages.mk
+-include $(LOCAL_PATH)/hardware/*/copy.mk
+-include $(LOCAL_PATH)/hardware/*/prop.mk
+
 # Inherit the product definitions
 include $(LOCAL_PATH)/product/*.mk
 
