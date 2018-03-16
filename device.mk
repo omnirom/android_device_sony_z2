@@ -26,9 +26,9 @@ include $(LOCAL_PATH)/product/*.mk
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Permissions 
+# Permissions
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
+    frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
 # Dalvik/HWUI
 $(call inherit-product-if-exists, vendor/omni/config/phone-xxxhdpi-3072-dalvik-heap.mk)
